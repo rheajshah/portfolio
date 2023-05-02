@@ -1,5 +1,5 @@
 # portfolio
-Collection of programming projects completed by Rhea Shah at UC Austin and UC Berkeley:
+Collection of programming projects completed by Rhea Shah at UT Austin and UC Berkeley:
 
 CS 314 - Computer Architecture & Organization, UT Austin (Spring 2023)
 Programming language(s): C, ARMx86 
