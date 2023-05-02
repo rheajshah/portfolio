@@ -1,0 +1,570 @@
+Welcome to the CS314 hangman game.
+
+2 0
+3 0
+4 9
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+What length word do you want to use? 4
+How many wrong answers allowed? 6
+What difficulty level do you want?
+Enter a number between 1(EASIEST) and 3(HARDEST) : 1
+guesses left: 6
+DEBUGGING: words left : 9
+guessed so far : []
+current word : ----
+Your guess? e
+the guess: e.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: ----. New family has 3 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: ----, number of words: 3
+pattern: ---e, number of words: 1
+pattern: --e-, number of words: 2
+pattern: -e--, number of words: 2
+pattern: e--e, number of words: 1
+END DEBUGGING
+
+Sorry, there are no e's
+
+guesses left: 5
+DEBUGGING: words left : 3
+guessed so far : [e]
+current word : ----
+Your guess? t
+the guess: t.
+
+DEBUGGING: Should pick second hardest pattern this turn, but only one pattern available.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: ----. New family has 3 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: ----, number of words: 3
+END DEBUGGING
+
+Sorry, there are no t's
+
+guesses left: 4
+DEBUGGING: words left : 3
+guessed so far : [e, t]
+current word : ----
+Your guess? a
+the guess: a.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: ----. New family has 2 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: ----, number of words: 2
+pattern: a---, number of words: 1
+END DEBUGGING
+
+Sorry, there are no a's
+
+guesses left: 3
+DEBUGGING: words left : 2
+guessed so far : [a, e, t]
+current word : ----
+Your guess? o
+the guess: o.
+
+DEBUGGING: Should pick second hardest pattern this turn, but only one pattern available.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: -oo-. New family has 2 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -oo-, number of words: 2
+END DEBUGGING
+
+Yes, there are 2 o's
+
+guesses left: 3
+DEBUGGING: words left : 2
+guessed so far : [a, e, o, t]
+current word : -oo-
+Your guess? m
+the guess: m.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: -oo-. New family has 2 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -oo-, number of words: 2
+END DEBUGGING
+
+Sorry, there are no m's
+
+guesses left: 2
+DEBUGGING: words left : 2
+guessed so far : [a, e, m, o, t]
+current word : -oo-
+Your guess? p
+the guess: p.
+
+DEBUGGING: Should pick second hardest pattern this turn, but only one pattern available.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: -oo-. New family has 2 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -oo-, number of words: 2
+END DEBUGGING
+
+Sorry, there are no p's
+
+guesses left: 1
+DEBUGGING: words left : 2
+guessed so far : [a, e, m, o, p, t]
+current word : -oo-
+Your guess? c
+the guess: c.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: -oo-. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -oo-, number of words: 1
+pattern: coo-, number of words: 1
+END DEBUGGING
+
+Sorry, there are no c's
+
+answer = good
+Sorry, you lose
+
+Another game? Enter y for another game, anything else to quit: y
+What length word do you want to use? 4
+How many wrong answers allowed? 6
+What difficulty level do you want?
+Enter a number between 1(EASIEST) and 3(HARDEST) : 1
+guesses left: 6
+DEBUGGING: words left : 9
+guessed so far : []
+current word : ----
+Your guess? e
+the guess: e.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: ----. New family has 3 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: ----, number of words: 3
+pattern: ---e, number of words: 1
+pattern: --e-, number of words: 2
+pattern: -e--, number of words: 2
+pattern: e--e, number of words: 1
+END DEBUGGING
+
+Sorry, there are no e's
+
+guesses left: 5
+DEBUGGING: words left : 3
+guessed so far : [e]
+current word : ----
+Your guess? t
+the guess: t.
+
+DEBUGGING: Should pick second hardest pattern this turn, but only one pattern available.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: ----. New family has 3 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: ----, number of words: 3
+END DEBUGGING
+
+Sorry, there are no t's
+
+guesses left: 4
+DEBUGGING: words left : 3
+guessed so far : [e, t]
+current word : ----
+Your guess? s
+the guess: s.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: ----. New family has 3 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: ----, number of words: 3
+END DEBUGGING
+
+Sorry, there are no s's
+
+guesses left: 3
+DEBUGGING: words left : 3
+guessed so far : [e, s, t]
+current word : ----
+Your guess? a
+the guess: a.
+
+DEBUGGING: Difficulty second hardest pattern and list.
+
+DEBUGGING: New pattern is: a---. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: ----, number of words: 2
+pattern: a---, number of words: 1
+END DEBUGGING
+
+Yes, there is one a
+
+guesses left: 3
+DEBUGGING: words left : 1
+guessed so far : [a, e, s, t]
+current word : a---
+Your guess? l
+the guess: l.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: all-. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: all-, number of words: 1
+END DEBUGGING
+
+Yes, there are 2 l's
+
+guesses left: 3
+DEBUGGING: words left : 1
+guessed so far : [a, e, l, s, t]
+current word : all-
+Your guess? l
+You already guessed that! Pick a new letter please.
+Your guess? y
+the guess: y.
+
+DEBUGGING: Should pick second hardest pattern this turn, but only one pattern available.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: ally. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: ally, number of words: 1
+END DEBUGGING
+
+Yes, there is one y
+
+answer = ally
+You beat me
+
+Another game? Enter y for another game, anything else to quit: y
+What length word do you want to use? 4
+How many wrong answers allowed? 6
+What difficulty level do you want?
+Enter a number between 1(EASIEST) and 3(HARDEST) : 1
+guesses left: 6
+DEBUGGING: words left : 9
+guessed so far : []
+current word : ----
+Your guess? a
+the guess: a.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: ----. New family has 6 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: ----, number of words: 6
+pattern: ---a, number of words: 1
+pattern: --a-, number of words: 1
+pattern: a---, number of words: 1
+END DEBUGGING
+
+Sorry, there are no a's
+
+guesses left: 5
+DEBUGGING: words left : 6
+guessed so far : [a]
+current word : ----
+Your guess? e
+the guess: e.
+
+DEBUGGING: Difficulty second hardest pattern and list.
+
+DEBUGGING: New pattern is: --e-. New family has 2 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: ----, number of words: 2
+pattern: ---e, number of words: 1
+pattern: --e-, number of words: 2
+pattern: e--e, number of words: 1
+END DEBUGGING
+
+Yes, there is one e
+
+guesses left: 5
+DEBUGGING: words left : 2
+guessed so far : [a, e]
+current word : --e-
+Your guess? i
+the guess: i.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: --e-. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: --e-, number of words: 1
+pattern: i-e-, number of words: 1
+END DEBUGGING
+
+Sorry, there are no i's
+
+guesses left: 4
+DEBUGGING: words left : 1
+guessed so far : [a, e, i]
+current word : --e-
+Your guess? b
+the guess: b.
+
+DEBUGGING: Should pick second hardest pattern this turn, but only one pattern available.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: --e-. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: --e-, number of words: 1
+END DEBUGGING
+
+Sorry, there are no b's
+
+guesses left: 3
+DEBUGGING: words left : 1
+guessed so far : [a, b, e, i]
+current word : --e-
+Your guess? f
+the guess: f.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: f-e-. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: f-e-, number of words: 1
+END DEBUGGING
+
+Yes, there is one f
+
+guesses left: 3
+DEBUGGING: words left : 1
+guessed so far : [a, b, e, f, i]
+current word : f-e-
+Your guess? l
+the guess: l.
+
+DEBUGGING: Should pick second hardest pattern this turn, but only one pattern available.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: fle-. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: fle-, number of words: 1
+END DEBUGGING
+
+Yes, there is one l
+
+guesses left: 3
+DEBUGGING: words left : 1
+guessed so far : [a, b, e, f, i, l]
+current word : fle-
+Your guess? w
+the guess: w.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: flew. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: flew, number of words: 1
+END DEBUGGING
+
+Yes, there is one w
+
+answer = flew
+You beat me
+
+Another game? Enter y for another game, anything else to quit: y
+What length word do you want to use? 4
+How many wrong answers allowed? 6
+What difficulty level do you want?
+Enter a number between 1(EASIEST) and 3(HARDEST) : 1
+guesses left: 6
+DEBUGGING: words left : 9
+guessed so far : []
+current word : ----
+Your guess? z
+the guess: z.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: ----. New family has 9 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: ----, number of words: 9
+END DEBUGGING
+
+Sorry, there are no z's
+
+guesses left: 5
+DEBUGGING: words left : 9
+guessed so far : [z]
+current word : ----
+Your guess? q
+the guess: q.
+
+DEBUGGING: Should pick second hardest pattern this turn, but only one pattern available.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: ----. New family has 9 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: ----, number of words: 9
+END DEBUGGING
+
+Sorry, there are no q's
+
+guesses left: 4
+DEBUGGING: words left : 9
+guessed so far : [q, z]
+current word : ----
+Your guess? p
+the guess: p.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: ----. New family has 8 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: ----, number of words: 8
+pattern: --p-, number of words: 1
+END DEBUGGING
+
+Sorry, there are no p's
+
+guesses left: 3
+DEBUGGING: words left : 8
+guessed so far : [p, q, z]
+current word : ----
+Your guess? z
+You already guessed that! Pick a new letter please.
+Your guess? y
+the guess: y.
+
+DEBUGGING: Difficulty second hardest pattern and list.
+
+DEBUGGING: New pattern is: ---y. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: ----, number of words: 7
+pattern: ---y, number of words: 1
+END DEBUGGING
+
+Yes, there is one y
+
+guesses left: 3
+DEBUGGING: words left : 1
+guessed so far : [p, q, y, z]
+current word : ---y
+Your guess? l
+the guess: l.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: -lly. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -lly, number of words: 1
+END DEBUGGING
+
+Yes, there are 2 l's
+
+guesses left: 3
+DEBUGGING: words left : 1
+guessed so far : [l, p, q, y, z]
+current word : -lly
+Your guess? a
+the guess: a.
+
+DEBUGGING: Should pick second hardest pattern this turn, but only one pattern available.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: ally. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: ally, number of words: 1
+END DEBUGGING
+
+Yes, there is one a
+
+answer = ally
+You beat me
+
+Another game? Enter y for another game, anything else to quit: n

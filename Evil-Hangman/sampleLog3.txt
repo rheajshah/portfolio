@@ -1,0 +1,201 @@
+Welcome to the CS314 hangman game.
+
+What length word do you want to use? 4
+How many wrong answers allowed? 6
+What difficulty level do you want?
+Enter a number between 1(EASIEST) and 3(HARDEST) : 3
+guesses left: 6
+guessed so far : []
+current word : ----
+Your guess? a
+the guess: a.
+Sorry, there are no a's
+
+guesses left: 5
+guessed so far : [a]
+current word : ----
+Your guess? e
+the guess: e.
+Sorry, there are no e's
+
+guesses left: 4
+guessed so far : [a, e]
+current word : ----
+Your guess? o
+the guess: o.
+Yes, there are 2 o's
+
+guesses left: 4
+guessed so far : [a, e, o]
+current word : -oo-
+Your guess? p
+the guess: p.
+Sorry, there are no p's
+
+guesses left: 3
+guessed so far : [a, e, o, p]
+current word : -oo-
+Your guess? s
+the guess: s.
+Sorry, there are no s's
+
+guesses left: 2
+guessed so far : [a, e, o, p, s]
+current word : -oo-
+Your guess? t
+the guess: t.
+Sorry, there are no t's
+
+guesses left: 1
+guessed so far : [a, e, o, p, s, t]
+current word : -oo-
+Your guess? p
+You already guessed that! Pick a new letter please.
+Your guess? l
+the guess: l.
+Sorry, there are no l's
+
+answer = good
+Sorry, you lose
+
+Another game? Enter y for another game, anything else to quit: y
+What length word do you want to use? 4
+How many wrong answers allowed? 6
+What difficulty level do you want?
+Enter a number between 1(EASIEST) and 3(HARDEST) : 3
+guesses left: 6
+guessed so far : []
+current word : ----
+Your guess? e
+the guess: e.
+Sorry, there are no e's
+
+guesses left: 5
+guessed so far : [e]
+current word : ----
+Your guess? t
+the guess: t.
+Sorry, there are no t's
+
+guesses left: 4
+guessed so far : [e, t]
+current word : ----
+Your guess? r
+the guess: r.
+Sorry, there are no r's
+
+guesses left: 3
+guessed so far : [e, r, t]
+current word : ----
+Your guess? s
+the guess: s.
+Sorry, there are no s's
+
+guesses left: 2
+guessed so far : [e, r, s, t]
+current word : ----
+Your guess?
+That is not an English letter.
+Your guess? a
+the guess: a.
+Sorry, there are no a's
+
+guesses left: 1
+guessed so far : [a, e, r, s, t]
+current word : ----
+Your guess? o
+the guess: o.
+Yes, there are 2 o's
+
+guesses left: 1
+guessed so far : [a, e, o, r, s, t]
+current word : -oo-
+Your guess? e
+You already guessed that! Pick a new letter please.
+Your guess? i
+the guess: i.
+Sorry, there are no i's
+
+answer = good
+Sorry, you lose
+
+Another game? Enter y for another game, anything else to quit: y
+What length word do you want to use? 4
+How many wrong answers allowed? 5
+What difficulty level do you want?
+Enter a number between 1(EASIEST) and 3(HARDEST) : 3
+guesses left: 5
+guessed so far : []
+current word : ----
+Your guess? e
+the guess: e.
+Sorry, there are no e's
+
+guesses left: 4
+guessed so far : [e]
+current word : ----
+Your guess? t
+the guess: t.
+Sorry, there are no t's
+
+guesses left: 3
+guessed so far : [e, t]
+current word : ----
+Your guess? s
+the guess: s.
+Sorry, there are no s's
+
+guesses left: 2
+guessed so far : [e, s, t]
+current word : ----
+Your guess? r
+the guess: r.
+Sorry, there are no r's
+
+guesses left: 1
+guessed so far : [e, r, s, t]
+current word : ----
+Your guess? m
+the guess: m.
+Sorry, there are no m's
+
+answer = ally
+Sorry, you lose
+
+Another game? Enter y for another game, anything else to quit: y
+What length word do you want to use? 4
+How many wrong answers allowed? 6
+What difficulty level do you want?
+Enter a number between 1(EASIEST) and 3(HARDEST) : 1
+guesses left: 6
+guessed so far : []
+current word : ----
+Your guess? e
+the guess: e.
+Sorry, there are no e's
+
+guesses left: 5
+guessed so far : [e]
+current word : ----
+Your guess? a
+the guess: a.
+Yes, there is one a
+
+guesses left: 5
+guessed so far : [a, e]
+current word : a---
+Your guess? l
+the guess: l.
+Yes, there are 2 l's
+
+guesses left: 5
+guessed so far : [a, e, l]
+current word : all-
+Your guess? y
+the guess: y.
+Yes, there is one y
+
+answer = ally
+You beat me
+
+Another game? Enter y for another game, anything else to quit: n

@@ -1,0 +1,1394 @@
+Welcome to the CS314 hangman game.
+
+2 49
+3 534
+4 2232
+5 4168
+6 6166
+7 7358
+8 7070
+9 6078
+10 4591
+11 3068
+12 1881
+13 1136
+14 545
+15 278
+16 103
+17 57
+18 23
+19 3
+20 3
+21 2
+22 1
+23 0
+24 0
+What length word do you want to use? 8
+How many wrong answers allowed? 8
+What difficulty level do you want?
+Enter a number between 1(EASIEST) and 3(HARDEST) : 1
+guesses left: 8
+DEBUGGING: words left : 7070
+guessed so far : []
+current word : --------
+Your guess? a
+the guess: a.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: --------. New family has 3476 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: --------, number of words: 3476
+pattern: -------a, number of words: 47
+pattern: ------a-, number of words: 236
+pattern: -----a--, number of words: 350
+pattern: -----a-a, number of words: 8
+pattern: ----a---, number of words: 395
+pattern: ----a--a, number of words: 8
+pattern: ----a-a-, number of words: 11
+pattern: ---a----, number of words: 406
+pattern: ---a---a, number of words: 3
+pattern: ---a--a-, number of words: 15
+pattern: ---a-a--, number of words: 15
+pattern: ---a-a-a, number of words: 1
+pattern: --a-----, number of words: 498
+pattern: --a----a, number of words: 7
+pattern: --a---a-, number of words: 19
+pattern: --a--a--, number of words: 41
+pattern: --a-a---, number of words: 24
+pattern: --a-a--a, number of words: 3
+pattern: --a-a-a-, number of words: 1
+pattern: --aa----, number of words: 1
+pattern: -a------, number of words: 587
+pattern: -a-----a, number of words: 16
+pattern: -a----a-, number of words: 65
+pattern: -a---a--, number of words: 73
+pattern: -a---a-a, number of words: 2
+pattern: -a--a---, number of words: 85
+pattern: -a--a--a, number of words: 3
+pattern: -a--a-a-, number of words: 4
+pattern: -a-a----, number of words: 63
+pattern: -a-a---a, number of words: 9
+pattern: -a-a--a-, number of words: 12
+pattern: -a-a-a--, number of words: 7
+pattern: -a-a-a-a, number of words: 2
+pattern: a-------, number of words: 333
+pattern: a------a, number of words: 10
+pattern: a-----a-, number of words: 30
+pattern: a----a--, number of words: 48
+pattern: a----a-a, number of words: 1
+pattern: a---a---, number of words: 48
+pattern: a--a----, number of words: 51
+pattern: a--a---a, number of words: 1
+pattern: a--a--a-, number of words: 7
+pattern: a--a-a--, number of words: 3
+pattern: a-a-----, number of words: 35
+pattern: a-a----a, number of words: 5
+pattern: a-a--a--, number of words: 4
+pattern: a-a-a--a, number of words: 1
+END DEBUGGING
+
+Sorry, there are no a's
+
+guesses left: 7
+DEBUGGING: words left : 3476
+guessed so far : [a]
+current word : --------
+Your guess? e
+the guess: e.
+
+DEBUGGING: Difficulty second hardest pattern and list.
+
+DEBUGGING: New pattern is: ------e-. New family has 498 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: --------, number of words: 844
+pattern: -------e, number of words: 136
+pattern: ------e-, number of words: 498
+pattern: ------ee, number of words: 2
+pattern: -----e--, number of words: 355
+pattern: -----e-e, number of words: 9
+pattern: -----ee-, number of words: 8
+pattern: ----e---, number of words: 97
+pattern: ----e--e, number of words: 30
+pattern: ----e-e-, number of words: 96
+pattern: ----e-ee, number of words: 2
+pattern: ----ee--, number of words: 5
+pattern: ---e----, number of words: 108
+pattern: ---e---e, number of words: 23
+pattern: ---e--e-, number of words: 77
+pattern: ---e--ee, number of words: 2
+pattern: ---e-e--, number of words: 34
+pattern: ---e-ee-, number of words: 3
+pattern: ---ee---, number of words: 1
+pattern: ---ee-e-, number of words: 7
+pattern: --e-----, number of words: 98
+pattern: --e----e, number of words: 22
+pattern: --e---e-, number of words: 54
+pattern: --e---ee, number of words: 1
+pattern: --e--e--, number of words: 27
+pattern: --e--e-e, number of words: 1
+pattern: --e--ee-, number of words: 2
+pattern: --e-e---, number of words: 14
+pattern: --e-e--e, number of words: 6
+pattern: --e-e-e-, number of words: 6
+pattern: --ee----, number of words: 35
+pattern: --ee---e, number of words: 1
+pattern: --ee--e-, number of words: 3
+pattern: --ee-e--, number of words: 16
+pattern: -e------, number of words: 179
+pattern: -e-----e, number of words: 40
+pattern: -e----e-, number of words: 168
+pattern: -e----ee, number of words: 3
+pattern: -e---e--, number of words: 42
+pattern: -e---e-e, number of words: 5
+pattern: -e---ee-, number of words: 4
+pattern: -e--e---, number of words: 27
+pattern: -e--e--e, number of words: 3
+pattern: -e--e-e-, number of words: 33
+pattern: -e-e----, number of words: 42
+pattern: -e-e---e, number of words: 8
+pattern: -e-e--e-, number of words: 51
+pattern: -e-e-e--, number of words: 12
+pattern: -e-e-ee-, number of words: 2
+pattern: -e-ee-e-, number of words: 2
+pattern: -ee-----, number of words: 9
+pattern: -ee----e, number of words: 1
+pattern: -ee---e-, number of words: 1
+pattern: -ee--e--, number of words: 8
+pattern: -ee-e---, number of words: 2
+pattern: -ee-e-e-, number of words: 1
+pattern: e-------, number of words: 51
+pattern: e------e, number of words: 8
+pattern: e-----e-, number of words: 55
+pattern: e-----ee, number of words: 1
+pattern: e----e--, number of words: 15
+pattern: e----ee-, number of words: 2
+pattern: e---e---, number of words: 4
+pattern: e---e--e, number of words: 2
+pattern: e---e-e-, number of words: 6
+pattern: e--e----, number of words: 10
+pattern: e--e---e, number of words: 5
+pattern: e--e--e-, number of words: 14
+pattern: e--ee--e, number of words: 1
+pattern: e--ee-e-, number of words: 2
+pattern: e-e-----, number of words: 19
+pattern: e-e----e, number of words: 5
+pattern: e-e---e-, number of words: 5
+pattern: e-e--e--, number of words: 2
+pattern: e-e--e-e, number of words: 1
+pattern: e-e-e---, number of words: 2
+END DEBUGGING
+
+Yes, there is one e
+
+guesses left: 7
+DEBUGGING: words left : 498
+guessed so far : [a, e]
+current word : ------e-
+Your guess? r
+the guess: r.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: ------e-. New family has 220 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: ------e-, number of words: 220
+pattern: ------er, number of words: 73
+pattern: -----re-, number of words: 26
+pattern: -----rer, number of words: 4
+pattern: ----r-e-, number of words: 9
+pattern: ----r-er, number of words: 5
+pattern: ----rre-, number of words: 3
+pattern: ---r--e-, number of words: 19
+pattern: ---r--er, number of words: 5
+pattern: ---rr-e-, number of words: 2
+pattern: --r---e-, number of words: 33
+pattern: --r---er, number of words: 14
+pattern: --r--re-, number of words: 5
+pattern: --r--rer, number of words: 2
+pattern: --rr--e-, number of words: 3
+pattern: --rr--er, number of words: 2
+pattern: --rr-re-, number of words: 1
+pattern: -r----e-, number of words: 53
+pattern: -r----er, number of words: 12
+pattern: -r---re-, number of words: 2
+pattern: -r---rer, number of words: 1
+pattern: r-----e-, number of words: 2
+pattern: r----re-, number of words: 2
+END DEBUGGING
+
+Sorry, there are no r's
+
+guesses left: 6
+DEBUGGING: words left : 220
+guessed so far : [a, e, r]
+current word : ------e-
+Your guess? s
+the guess: s.
+
+DEBUGGING: Difficulty second hardest pattern and list.
+
+DEBUGGING: New pattern is: ------es. New family has 49 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: ------e-, number of words: 65
+pattern: ------es, number of words: 49
+pattern: -----se-, number of words: 6
+pattern: -----ses, number of words: 6
+pattern: ----s-e-, number of words: 7
+pattern: ----s-es, number of words: 5
+pattern: ----sse-, number of words: 1
+pattern: ---s--e-, number of words: 5
+pattern: ---s--es, number of words: 3
+pattern: --s---e-, number of words: 12
+pattern: --s---es, number of words: 5
+pattern: --s--se-, number of words: 1
+pattern: --s--ses, number of words: 1
+pattern: --s-s-e-, number of words: 1
+pattern: --ss--e-, number of words: 1
+pattern: --ss--es, number of words: 1
+pattern: -s----es, number of words: 1
+pattern: s-----e-, number of words: 24
+pattern: s-----es, number of words: 18
+pattern: s----se-, number of words: 1
+pattern: s----ses, number of words: 2
+pattern: s---s-e-, number of words: 1
+pattern: s--s--e-, number of words: 2
+pattern: s--s--es, number of words: 2
+END DEBUGGING
+
+Yes, there is one s
+
+guesses left: 6
+DEBUGGING: words left : 49
+guessed so far : [a, e, r, s]
+current word : ------es
+Your guess? n
+the guess: n.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: ------es. New family has 26 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: ------es, number of words: 26
+pattern: -----nes, number of words: 5
+pattern: ----n-es, number of words: 3
+pattern: ---n--es, number of words: 5
+pattern: --n---es, number of words: 1
+pattern: --n--nes, number of words: 2
+pattern: --nn--es, number of words: 1
+pattern: -n----es, number of words: 4
+pattern: -n---nes, number of words: 1
+pattern: n-----es, number of words: 1
+END DEBUGGING
+
+Sorry, there are no n's
+
+guesses left: 5
+DEBUGGING: words left : 26
+guessed so far : [a, e, n, r, s]
+current word : ------es
+Your guess? m
+the guess: m.
+
+DEBUGGING: Difficulty second hardest pattern and list.
+
+DEBUGGING: New pattern is: --m---es. New family has 2 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: ------es, number of words: 19
+pattern: -----mes, number of words: 1
+pattern: ---m--es, number of words: 1
+pattern: --m---es, number of words: 2
+pattern: --mm--es, number of words: 1
+pattern: m-----es, number of words: 2
+END DEBUGGING
+
+Yes, there is one m
+
+guesses left: 5
+DEBUGGING: words left : 2
+guessed so far : [a, e, m, n, r, s]
+current word : --m---es
+Your guess? t
+the guess: t.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: --m---es. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: --m---es, number of words: 1
+pattern: --m--tes, number of words: 1
+END DEBUGGING
+
+Sorry, there are no t's
+
+guesses left: 4
+DEBUGGING: words left : 1
+guessed so far : [a, e, m, n, r, s, t]
+current word : --m---es
+Your guess? f
+the guess: f.
+
+DEBUGGING: Should pick second hardest pattern this turn, but only one pattern available.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: --m---es. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: --m---es, number of words: 1
+END DEBUGGING
+
+Sorry, there are no f's
+
+guesses left: 3
+DEBUGGING: words left : 1
+guessed so far : [a, e, f, m, n, r, s, t]
+current word : --m---es
+Your guess? p
+the guess: p.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: --mp--es. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: --mp--es, number of words: 1
+END DEBUGGING
+
+Yes, there is one p
+
+guesses left: 3
+DEBUGGING: words left : 1
+guessed so far : [a, e, f, m, n, p, r, s, t]
+current word : --mp--es
+Your guess? g
+the guess: g.
+
+DEBUGGING: Should pick second hardest pattern this turn, but only one pattern available.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: --mp--es. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: --mp--es, number of words: 1
+END DEBUGGING
+
+Sorry, there are no g's
+
+guesses left: 2
+DEBUGGING: words left : 1
+guessed so far : [a, e, f, g, m, n, p, r, s, t]
+current word : --mp--es
+Your guess? l
+the guess: l.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: --mp-les. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: --mp-les, number of words: 1
+END DEBUGGING
+
+Yes, there is one l
+
+guesses left: 2
+DEBUGGING: words left : 1
+guessed so far : [a, e, f, g, l, m, n, p, r, s, t]
+current word : --mp-les
+Your guess? x
+the guess: x.
+
+DEBUGGING: Should pick second hardest pattern this turn, but only one pattern available.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: --mp-les. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: --mp-les, number of words: 1
+END DEBUGGING
+
+Sorry, there are no x's
+
+guesses left: 1
+DEBUGGING: words left : 1
+guessed so far : [a, e, f, g, l, m, n, p, r, s, t, x]
+current word : --mp-les
+Your guess? j
+the guess: j.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: --mp-les. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: --mp-les, number of words: 1
+END DEBUGGING
+
+Sorry, there are no j's
+
+answer = compiles
+Sorry, you lose
+
+Another game? Enter y for another game, anything else to quit: y
+What length word do you want to use? 6
+How many wrong answers allowed? 15
+What difficulty level do you want?
+Enter a number between 1(EASIEST) and 3(HARDEST) : 1
+guesses left: 15
+DEBUGGING: words left : 6166
+guessed so far : []
+current word : ------
+Your guess? e
+the guess: e.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: ------. New family has 2190 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: ------, number of words: 2190
+pattern: -----e, number of words: 487
+pattern: ----e-, number of words: 1669
+pattern: ----ee, number of words: 11
+pattern: ---e--, number of words: 389
+pattern: ---e-e, number of words: 16
+pattern: ---ee-, number of words: 17
+pattern: --e---, number of words: 171
+pattern: --e--e, number of words: 29
+pattern: --e-e-, number of words: 47
+pattern: --ee--, number of words: 37
+pattern: --ee-e, number of words: 9
+pattern: -e----, number of words: 353
+pattern: -e---e, number of words: 118
+pattern: -e--e-, number of words: 280
+pattern: -e--ee, number of words: 2
+pattern: -e-e--, number of words: 80
+pattern: -e-e-e, number of words: 7
+pattern: -e-ee-, number of words: 3
+pattern: -ee---, number of words: 10
+pattern: -ee--e, number of words: 5
+pattern: -ee-e-, number of words: 34
+pattern: e-----, number of words: 89
+pattern: e----e, number of words: 31
+pattern: e---e-, number of words: 34
+pattern: e---ee, number of words: 2
+pattern: e--e--, number of words: 23
+pattern: e--e-e, number of words: 2
+pattern: e--ee-, number of words: 3
+pattern: e-e---, number of words: 13
+pattern: e-e--e, number of words: 1
+pattern: e-e-e-, number of words: 3
+pattern: ee----, number of words: 1
+END DEBUGGING
+
+Sorry, there are no e's
+
+guesses left: 14
+DEBUGGING: words left : 2190
+guessed so far : [e]
+current word : ------
+Your guess? a
+the guess: a.
+
+DEBUGGING: Difficulty second hardest pattern and list.
+
+DEBUGGING: New pattern is: -a----. New family has 364 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: ------, number of words: 975
+pattern: -----a, number of words: 36
+pattern: ----a-, number of words: 153
+pattern: ---a--, number of words: 129
+pattern: ---a-a, number of words: 9
+pattern: --a---, number of words: 166
+pattern: --a--a, number of words: 18
+pattern: --a-a-, number of words: 8
+pattern: --aa--, number of words: 1
+pattern: -a----, number of words: 364
+pattern: -a---a, number of words: 36
+pattern: -a--a-, number of words: 53
+pattern: -a-a--, number of words: 27
+pattern: -a-a-a, number of words: 12
+pattern: -a-aa-, number of words: 3
+pattern: a-----, number of words: 120
+pattern: a----a, number of words: 12
+pattern: a---a-, number of words: 21
+pattern: a--a--, number of words: 25
+pattern: a--a-a, number of words: 3
+pattern: a-a---, number of words: 12
+pattern: a-a--a, number of words: 6
+pattern: aa----, number of words: 1
+END DEBUGGING
+
+Yes, there is one a
+
+guesses left: 14
+DEBUGGING: words left : 364
+guessed so far : [a, e]
+current word : -a----
+Your guess? r
+the guess: r.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: -a----. New family has 226 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -a----, number of words: 226
+pattern: -a---r, number of words: 16
+pattern: -a--r-, number of words: 13
+pattern: -a-r--, number of words: 12
+pattern: -ar---, number of words: 56
+pattern: -ar--r, number of words: 3
+pattern: -arr--, number of words: 9
+pattern: ra----, number of words: 25
+pattern: ra---r, number of words: 1
+pattern: ra--r-, number of words: 1
+pattern: ra-r--, number of words: 1
+pattern: rar---, number of words: 1
+END DEBUGGING
+
+Sorry, there are no r's
+
+guesses left: 13
+DEBUGGING: words left : 226
+guessed so far : [a, e, r]
+current word : -a----
+Your guess? s
+the guess: s.
+
+DEBUGGING: Difficulty second hardest pattern and list.
+
+DEBUGGING: New pattern is: -a---s. New family has 36 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -a----, number of words: 139
+pattern: -a---s, number of words: 36
+pattern: -a--s-, number of words: 8
+pattern: -a-s--, number of words: 10
+pattern: -a-s-s, number of words: 1
+pattern: -as---, number of words: 8
+pattern: -as--s, number of words: 3
+pattern: sa----, number of words: 14
+pattern: sa---s, number of words: 3
+pattern: sa--s-, number of words: 3
+pattern: sa-s--, number of words: 1
+END DEBUGGING
+
+Yes, there is one s
+
+guesses left: 13
+DEBUGGING: words left : 36
+guessed so far : [a, e, r, s]
+current word : -a---s
+Your guess? b
+the guess: b.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: -a---s. New family has 26 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -a---s, number of words: 26
+pattern: -a--bs, number of words: 1
+pattern: -ab--s, number of words: 3
+pattern: ba---s, number of words: 6
+END DEBUGGING
+
+Sorry, there are no b's
+
+guesses left: 12
+DEBUGGING: words left : 26
+guessed so far : [a, b, e, r, s]
+current word : -a---s
+Your guess? t
+the guess: t.
+
+DEBUGGING: Difficulty second hardest pattern and list.
+
+DEBUGGING: New pattern is: -a--ts. New family has 6 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -a---s, number of words: 15
+pattern: -a--ts, number of words: 6
+pattern: -a-t-s, number of words: 3
+pattern: -at--s, number of words: 1
+pattern: ta--ts, number of words: 1
+END DEBUGGING
+
+Yes, there is one t
+
+guesses left: 12
+DEBUGGING: words left : 6
+guessed so far : [a, b, e, r, s, t]
+current word : -a--ts
+Your guess? o
+the guess: o.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: -a--ts. New family has 6 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -a--ts, number of words: 6
+END DEBUGGING
+
+Sorry, there are no o's
+
+guesses left: 11
+DEBUGGING: words left : 6
+guessed so far : [a, b, e, o, r, s, t]
+current word : -a--ts
+Your guess? i
+the guess: i.
+
+DEBUGGING: Difficulty second hardest pattern and list.
+
+DEBUGGING: New pattern is: -ai-ts. New family has 2 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -a--ts, number of words: 4
+pattern: -ai-ts, number of words: 2
+END DEBUGGING
+
+Yes, there is one i
+
+guesses left: 11
+DEBUGGING: words left : 2
+guessed so far : [a, b, e, i, o, r, s, t]
+current word : -ai-ts
+Your guess? c
+the guess: c.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: -ai-ts. New family has 2 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -ai-ts, number of words: 2
+END DEBUGGING
+
+Sorry, there are no c's
+
+guesses left: 10
+DEBUGGING: words left : 2
+guessed so far : [a, b, c, e, i, o, r, s, t]
+current word : -ai-ts
+Your guess? d
+the guess: d.
+
+DEBUGGING: Should pick second hardest pattern this turn, but only one pattern available.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: -ai-ts. New family has 2 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -ai-ts, number of words: 2
+END DEBUGGING
+
+Sorry, there are no d's
+
+guesses left: 9
+DEBUGGING: words left : 2
+guessed so far : [a, b, c, d, e, i, o, r, s, t]
+current word : -ai-ts
+Your guess? f
+the guess: f.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: -ai-ts. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -ai-ts, number of words: 1
+pattern: fai-ts, number of words: 1
+END DEBUGGING
+
+Sorry, there are no f's
+
+guesses left: 8
+DEBUGGING: words left : 1
+guessed so far : [a, b, c, d, e, f, i, o, r, s, t]
+current word : -ai-ts
+Your guess? g
+the guess: g.
+
+DEBUGGING: Should pick second hardest pattern this turn, but only one pattern available.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: -ai-ts. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -ai-ts, number of words: 1
+END DEBUGGING
+
+Sorry, there are no g's
+
+guesses left: 7
+DEBUGGING: words left : 1
+guessed so far : [a, b, c, d, e, f, g, i, o, r, s, t]
+current word : -ai-ts
+Your guess? h
+the guess: h.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: -ai-ts. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -ai-ts, number of words: 1
+END DEBUGGING
+
+Sorry, there are no h's
+
+guesses left: 6
+DEBUGGING: words left : 1
+guessed so far : [a, b, c, d, e, f, g, h, i, o, r, s, t]
+current word : -ai-ts
+Your guess? j
+the guess: j.
+
+DEBUGGING: Should pick second hardest pattern this turn, but only one pattern available.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: -ai-ts. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -ai-ts, number of words: 1
+END DEBUGGING
+
+Sorry, there are no j's
+
+guesses left: 5
+DEBUGGING: words left : 1
+guessed so far : [a, b, c, d, e, f, g, h, i, j, o, r, s, t]
+current word : -ai-ts
+Your guess? k
+the guess: k.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: -ai-ts. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -ai-ts, number of words: 1
+END DEBUGGING
+
+Sorry, there are no k's
+
+guesses left: 4
+DEBUGGING: words left : 1
+guessed so far : [a, b, c, d, e, f, g, h, i, j, k, o, r, s, t]
+current word : -ai-ts
+Your guess? l
+the guess: l.
+
+DEBUGGING: Should pick second hardest pattern this turn, but only one pattern available.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: -ai-ts. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -ai-ts, number of words: 1
+END DEBUGGING
+
+Sorry, there are no l's
+
+guesses left: 3
+DEBUGGING: words left : 1
+guessed so far : [a, b, c, d, e, f, g, h, i, j, k, l, o, r, s, t]
+current word : -ai-ts
+Your guess? m
+the guess: m.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: -ai-ts. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -ai-ts, number of words: 1
+END DEBUGGING
+
+Sorry, there are no m's
+
+guesses left: 2
+DEBUGGING: words left : 1
+guessed so far : [a, b, c, d, e, f, g, h, i, j, k, l, m, o, r, s, t]
+current word : -ai-ts
+Your guess? n
+the guess: n.
+
+DEBUGGING: Should pick second hardest pattern this turn, but only one pattern available.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: -aints. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -aints, number of words: 1
+END DEBUGGING
+
+Yes, there is one n
+
+guesses left: 2
+DEBUGGING: words left : 1
+guessed so far : [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, r, s, t]
+current word : -aints
+Your guess? p
+the guess: p.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: paints. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: paints, number of words: 1
+END DEBUGGING
+
+Yes, there is one p
+
+answer = paints
+You beat me
+
+Another game? Enter y for another game, anything else to quit: y
+What length word do you want to use? 9
+How many wrong answers allowed? 10
+What difficulty level do you want?
+Enter a number between 1(EASIEST) and 3(HARDEST) : 1
+guesses left: 10
+DEBUGGING: words left : 6078
+guessed so far : []
+current word : ---------
+Your guess? o
+the guess: o.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: ---------. New family has 3499 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: ---------, number of words: 3499
+pattern: --------o, number of words: 8
+pattern: -------o-, number of words: 217
+pattern: -------oo, number of words: 1
+pattern: ------o--, number of words: 298
+pattern: ------o-o, number of words: 3
+pattern: ------oo-, number of words: 22
+pattern: -----o---, number of words: 168
+pattern: -----o-o-, number of words: 4
+pattern: -----oo--, number of words: 8
+pattern: ----o----, number of words: 289
+pattern: ----o--o-, number of words: 3
+pattern: ----o-o--, number of words: 24
+pattern: ----oo---, number of words: 3
+pattern: ---o-----, number of words: 265
+pattern: ---o---o-, number of words: 8
+pattern: ---o--o--, number of words: 15
+pattern: ---o-o---, number of words: 7
+pattern: ---oo----, number of words: 4
+pattern: ---oo--o-, number of words: 1
+pattern: --o------, number of words: 203
+pattern: --o----o-, number of words: 19
+pattern: --o---o--, number of words: 16
+pattern: --o---oo-, number of words: 4
+pattern: --o--o---, number of words: 7
+pattern: --o-o----, number of words: 23
+pattern: --o-o--o-, number of words: 1
+pattern: --o-o-o--, number of words: 4
+pattern: --oo-----, number of words: 12
+pattern: --oo---o-, number of words: 1
+pattern: --oo--o--, number of words: 1
+pattern: -o-------, number of words: 549
+pattern: -o------o, number of words: 1
+pattern: -o-----o-, number of words: 39
+pattern: -o----o--, number of words: 35
+pattern: -o----oo-, number of words: 5
+pattern: -o---o---, number of words: 17
+pattern: -o---o--o, number of words: 1
+pattern: -o---oo--, number of words: 2
+pattern: -o--o----, number of words: 60
+pattern: -o--o--o-, number of words: 3
+pattern: -o--o-o--, number of words: 5
+pattern: -o-o-----, number of words: 27
+pattern: -o-o---o-, number of words: 1
+pattern: -o-o--o--, number of words: 2
+pattern: -o-o-o---, number of words: 2
+pattern: -oo------, number of words: 27
+pattern: -oo---o--, number of words: 2
+pattern: -oo---oo-, number of words: 1
+pattern: -oo--o---, number of words: 4
+pattern: o--------, number of words: 111
+pattern: o------o-, number of words: 7
+pattern: o-----o--, number of words: 10
+pattern: o-----oo-, number of words: 1
+pattern: o----o---, number of words: 11
+pattern: o----oo--, number of words: 1
+pattern: o---o----, number of words: 6
+pattern: o---o-o--, number of words: 1
+pattern: o--o-----, number of words: 7
+pattern: o--o--o--, number of words: 1
+pattern: o-o-o----, number of words: 1
+END DEBUGGING
+
+Sorry, there are no o's
+
+guesses left: 9
+DEBUGGING: words left : 3499
+guessed so far : [o]
+current word : ---------
+Your guess? e
+the guess: e.
+
+DEBUGGING: Difficulty second hardest pattern and list.
+
+DEBUGGING: New pattern is: -------e-. New family has 373 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: ---------, number of words: 663
+pattern: --------e, number of words: 222
+pattern: -------e-, number of words: 373
+pattern: -------ee, number of words: 3
+pattern: ------e--, number of words: 213
+pattern: ------e-e, number of words: 10
+pattern: ------ee-, number of words: 5
+pattern: -----e---, number of words: 56
+pattern: -----e--e, number of words: 13
+pattern: -----e-e-, number of words: 75
+pattern: -----e-ee, number of words: 1
+pattern: -----ee--, number of words: 1
+pattern: ----e----, number of words: 143
+pattern: ----e---e, number of words: 27
+pattern: ----e--e-, number of words: 84
+pattern: ----e--ee, number of words: 1
+pattern: ----e-e--, number of words: 61
+pattern: ----e-e-e, number of words: 1
+pattern: ----e-ee-, number of words: 2
+pattern: ----ee---, number of words: 2
+pattern: ----ee-e-, number of words: 1
+pattern: ---e-----, number of words: 167
+pattern: ---e----e, number of words: 60
+pattern: ---e---e-, number of words: 52
+pattern: ---e--e--, number of words: 53
+pattern: ---e--e-e, number of words: 4
+pattern: ---e--ee-, number of words: 2
+pattern: ---e-e---, number of words: 10
+pattern: ---e-e--e, number of words: 3
+pattern: ---e-e-e-, number of words: 1
+pattern: ---e-ee--, number of words: 1
+pattern: ---ee----, number of words: 4
+pattern: ---ee---e, number of words: 1
+pattern: ---ee--e-, number of words: 2
+pattern: ---ee-e--, number of words: 2
+pattern: --e------, number of words: 79
+pattern: --e-----e, number of words: 23
+pattern: --e----e-, number of words: 38
+pattern: --e---e--, number of words: 30
+pattern: --e---e-e, number of words: 1
+pattern: --e--e---, number of words: 7
+pattern: --e--e-e-, number of words: 6
+pattern: --e-e----, number of words: 11
+pattern: --e-e---e, number of words: 2
+pattern: --e-e--e-, number of words: 14
+pattern: --e-e-e--, number of words: 4
+pattern: --ee-----, number of words: 9
+pattern: --ee----e, number of words: 3
+pattern: --ee---e-, number of words: 2
+pattern: --ee---ee, number of words: 1
+pattern: --ee--e--, number of words: 10
+pattern: --ee--ee-, number of words: 1
+pattern: --ee-e-e-, number of words: 2
+pattern: -e-------, number of words: 182
+pattern: -e------e, number of words: 75
+pattern: -e-----e-, number of words: 103
+pattern: -e-----ee, number of words: 1
+pattern: -e----e--, number of words: 62
+pattern: -e----e-e, number of words: 2
+pattern: -e---e---, number of words: 19
+pattern: -e---e--e, number of words: 4
+pattern: -e---e-e-, number of words: 17
+pattern: -e--e----, number of words: 37
+pattern: -e--e---e, number of words: 15
+pattern: -e--e--e-, number of words: 47
+pattern: -e--e--ee, number of words: 1
+pattern: -e--e-e--, number of words: 10
+pattern: -e--e-e-e, number of words: 1
+pattern: -e--ee---, number of words: 1
+pattern: -e-e-----, number of words: 58
+pattern: -e-e----e, number of words: 20
+pattern: -e-e---e-, number of words: 28
+pattern: -e-e--e--, number of words: 19
+pattern: -e-e--e-e, number of words: 1
+pattern: -e-e--ee-, number of words: 1
+pattern: -e-e-e---, number of words: 6
+pattern: -e-e-e--e, number of words: 4
+pattern: -e-ee----, number of words: 1
+pattern: -e-ee--e-, number of words: 1
+pattern: -e-ee-e--, number of words: 1
+pattern: -ee------, number of words: 4
+pattern: -ee-----e, number of words: 2
+pattern: -ee----e-, number of words: 1
+pattern: -ee---e--, number of words: 2
+pattern: -ee--e-e-, number of words: 1
+pattern: -ee-e----, number of words: 1
+pattern: -ee-e--e-, number of words: 1
+pattern: e--------, number of words: 37
+pattern: e-------e, number of words: 20
+pattern: e------e-, number of words: 42
+pattern: e-----e--, number of words: 18
+pattern: e----e---, number of words: 1
+pattern: e----e--e, number of words: 2
+pattern: e----e-e-, number of words: 1
+pattern: e----ee--, number of words: 2
+pattern: e---e----, number of words: 15
+pattern: e---e---e, number of words: 2
+pattern: e---e--e-, number of words: 8
+pattern: e---e-e--, number of words: 1
+pattern: e--e-----, number of words: 15
+pattern: e--e----e, number of words: 7
+pattern: e--e---e-, number of words: 7
+pattern: e--e--e--, number of words: 5
+pattern: e--e--e-e, number of words: 1
+pattern: e--e-e---, number of words: 2
+pattern: e--ee----, number of words: 2
+pattern: e-e------, number of words: 8
+pattern: e-e-----e, number of words: 2
+pattern: e-e----e-, number of words: 4
+pattern: e-e---ee-, number of words: 1
+pattern: e-e--e---, number of words: 2
+pattern: e-e--e--e, number of words: 1
+pattern: e-e--e-e-, number of words: 1
+pattern: e-e-e----, number of words: 1
+END DEBUGGING
+
+Yes, there is one e
+
+guesses left: 9
+DEBUGGING: words left : 373
+guessed so far : [e, o]
+current word : -------e-
+Your guess? a
+the guess: a.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: -------e-. New family has 104 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -------e-, number of words: 104
+pattern: -----a-e-, number of words: 46
+pattern: ----a--e-, number of words: 37
+pattern: ---a---e-, number of words: 32
+pattern: ---a-a-e-, number of words: 2
+pattern: --a----e-, number of words: 27
+pattern: --a--a-e-, number of words: 3
+pattern: --a-a--e-, number of words: 2
+pattern: -a-----e-, number of words: 33
+pattern: -a-----ea, number of words: 1
+pattern: -a---a-e-, number of words: 18
+pattern: -a--a--e-, number of words: 21
+pattern: -a-a---e-, number of words: 8
+pattern: -a-a-a-e-, number of words: 1
+pattern: a------e-, number of words: 15
+pattern: a----a-e-, number of words: 9
+pattern: a---a--e-, number of words: 11
+pattern: a--a---e-, number of words: 2
+pattern: a-a-a--e-, number of words: 1
+END DEBUGGING
+
+Sorry, there are no a's
+
+guesses left: 8
+DEBUGGING: words left : 104
+guessed so far : [a, e, o]
+current word : -------e-
+Your guess? b
+the guess: b.
+
+DEBUGGING: Difficulty second hardest pattern and list.
+
+DEBUGGING: New pattern is: --b----e-. New family has 11 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -------e-, number of words: 78
+pattern: ------be-, number of words: 5
+pattern: ----b--e-, number of words: 1
+pattern: ----bb-e-, number of words: 3
+pattern: ---b---e-, number of words: 2
+pattern: --b----e-, number of words: 11
+pattern: b------e-, number of words: 4
+END DEBUGGING
+
+Yes, there is one b
+
+guesses left: 8
+DEBUGGING: words left : 11
+guessed so far : [a, b, e, o]
+current word : --b----e-
+Your guess? c
+the guess: c.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: --b----e-. New family has 10 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: --b----e-, number of words: 10
+pattern: --bc-c-e-, number of words: 1
+END DEBUGGING
+
+Sorry, there are no c's
+
+guesses left: 7
+DEBUGGING: words left : 10
+guessed so far : [a, b, c, e, o]
+current word : --b----e-
+Your guess? n
+the guess: n.
+
+DEBUGGING: Difficulty second hardest pattern and list.
+
+DEBUGGING: New pattern is: -nb----e-. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: --b----e-, number of words: 9
+pattern: -nb----e-, number of words: 1
+END DEBUGGING
+
+Yes, there is one n
+
+guesses left: 7
+DEBUGGING: words left : 1
+guessed so far : [a, b, c, e, n, o]
+current word : -nb----e-
+Your guess? t
+the guess: t.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: -nb----e-. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -nb----e-, number of words: 1
+END DEBUGGING
+
+Sorry, there are no t's
+
+guesses left: 6
+DEBUGGING: words left : 1
+guessed so far : [a, b, c, e, n, o, t]
+current word : -nb----e-
+Your guess? s
+the guess: s.
+
+DEBUGGING: Should pick second hardest pattern this turn, but only one pattern available.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: -nb----e-. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -nb----e-, number of words: 1
+END DEBUGGING
+
+Sorry, there are no s's
+
+guesses left: 5
+DEBUGGING: words left : 1
+guessed so far : [a, b, c, e, n, o, s, t]
+current word : -nb----e-
+Your guess? r
+the guess: r.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: -nbr---e-. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -nbr---e-, number of words: 1
+END DEBUGGING
+
+Yes, there is one r
+
+guesses left: 5
+DEBUGGING: words left : 1
+guessed so far : [a, b, c, e, n, o, r, s, t]
+current word : -nbr---e-
+Your guess? l
+the guess: l.
+
+DEBUGGING: Should pick second hardest pattern this turn, but only one pattern available.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: -nbr--le-. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -nbr--le-, number of words: 1
+END DEBUGGING
+
+Yes, there is one l
+
+guesses left: 5
+DEBUGGING: words left : 1
+guessed so far : [a, b, c, e, l, n, o, r, s, t]
+current word : -nbr--le-
+Your guess? m
+the guess: m.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: -nbr--le-. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -nbr--le-, number of words: 1
+END DEBUGGING
+
+Sorry, there are no m's
+
+guesses left: 4
+DEBUGGING: words left : 1
+guessed so far : [a, b, c, e, l, m, n, o, r, s, t]
+current word : -nbr--le-
+Your guess? i
+the guess: i.
+
+DEBUGGING: Should pick second hardest pattern this turn, but only one pattern available.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: -nbri-le-. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -nbri-le-, number of words: 1
+END DEBUGGING
+
+Yes, there is one i
+
+guesses left: 4
+DEBUGGING: words left : 1
+guessed so far : [a, b, c, e, i, l, m, n, o, r, s, t]
+current word : -nbri-le-
+Your guess? v
+the guess: v.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: -nbri-le-. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -nbri-le-, number of words: 1
+END DEBUGGING
+
+Sorry, there are no v's
+
+guesses left: 3
+DEBUGGING: words left : 1
+guessed so far : [a, b, c, e, i, l, m, n, o, r, s, t, v]
+current word : -nbri-le-
+Your guess? d
+the guess: d.
+
+DEBUGGING: Should pick second hardest pattern this turn, but only one pattern available.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: -nbridled. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: -nbridled, number of words: 1
+END DEBUGGING
+
+Yes, there are 2 d's
+
+guesses left: 3
+DEBUGGING: words left : 1
+guessed so far : [a, b, c, d, e, i, l, m, n, o, r, s, t, v]
+current word : -nbridled
+Your guess? u
+the guess: u.
+
+DEBUGGING: Picking hardest list.
+DEBUGGING: New pattern is: unbridled. New family has 1 words.
+
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern:
+pattern: unbridled, number of words: 1
+END DEBUGGING
+
+Yes, there is one u
+
+answer = unbridled
+You beat me
+
+Another game? Enter y for another game, anything else to quit: n

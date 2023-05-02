@@ -1,0 +1,66 @@
+Welcome to the CS314 hangman game.
+
+What length word do you want to use? 4
+How many wrong answers allowed? 7
+What difficulty level do you want?
+Enter a number between 1(EASIEST) and 3(HARDEST) : 1
+guesses left: 7
+guessed so far : []
+current word : ----
+Your guess? e
+the guess: e.
+Sorry, there are no e's
+
+guesses left: 6
+guessed so far : [e]
+current word : ----
+Your guess? a
+the guess: a.
+Yes, there is one a
+
+guesses left: 6
+guessed so far : [a, e]
+current word : -a--
+Your guess? r
+the guess: r.
+Sorry, there are no r's
+
+guesses left: 5
+guessed so far : [a, e, r]
+current word : -a--
+Your guess? s
+the guess: s.
+Yes, there is one s
+
+guesses left: 5
+guessed so far : [a, e, r, s]
+current word : -a-s
+Your guess? b
+the guess: b.
+Sorry, there are no b's
+
+guesses left: 4
+guessed so far : [a, b, e, r, s]
+current word : -a-s
+Your guess? t
+the guess: t.
+Yes, there is one t
+
+guesses left: 4
+guessed so far : [a, b, e, r, s, t]
+current word : -ats
+Your guess? p
+the guess: p.
+Sorry, there are no p's
+
+guesses left: 3
+guessed so far : [a, b, e, p, r, s, t]
+current word : -ats
+Your guess? c
+the guess: c.
+Yes, there is one c
+
+answer = cats
+You beat me
+
+Another game? Enter y for another game, anything else to quit: n

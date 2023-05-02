@@ -1,0 +1,73 @@
+Welcome to the CS314 hangman game.
+
+What length word do you want to use? 6
+How many wrong answers allowed? 6
+What difficulty level do you want?
+Enter a number between 1(EASIEST) and 3(HARDEST) : 2
+guesses left: 6
+guessed so far : []
+current word : ------
+Your guess? i
+the guess: i.
+Sorry, there are no i's
+
+guesses left: 5
+guessed so far : [i]
+current word : ------
+Your guess? u
+the guess: u.
+Sorry, there are no u's
+
+guesses left: 4
+guessed so far : [i, u]
+current word : ------
+Your guess? o
+the guess: o.
+Sorry, there are no o's
+
+guesses left: 3
+guessed so far : [i, o, u]
+current word : ------
+Your guess? e
+the guess: e.
+Sorry, there are no e's
+
+guesses left: 2
+guessed so far : [e, i, o, u]
+current word : ------
+Your guess? a
+the guess: a.
+Yes, there is one a
+
+guesses left: 2
+guessed so far : [a, e, i, o, u]
+current word : --a---
+Your guess? r
+the guess: r.
+Sorry, there are no r's
+
+guesses left: 1
+guessed so far : [a, e, i, o, r, u]
+current word : --a---
+Your guess? s
+the guess: s.
+Yes, there are 2 s's
+
+guesses left: 1
+guessed so far : [a, e, i, o, r, s, u]
+current word : s-a--s
+Your guess? t
+the guess: t.
+Yes, there is one t
+
+guesses left: 1
+guessed so far : [a, e, i, o, r, s, t, u]
+current word : sta--s
+Your guess? n
+the guess: n.
+Sorry, there are no n's
+
+answer = stacks
+Sorry, you lose
+
+Another game? Enter y for another game, anything else to quit: n
